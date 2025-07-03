@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amazon </title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+  <a href="index.html">
+    <img src="main-assets/logo.png" height="35px" width="100px" >
+  </a>
+</div>
+
+      <div class="search-bar">
+        <input type="text" placeholder="Search products" id="searchInput" />
+        <button onclick="searchProducts()">Search</button>
+      </div>
+      <div class="nav-links">
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+      </div>
+    </div>
+  </header>
+
+  <nav class="categories">
+    <a href="mx_payer.html">MX Player</a>
+    <a href="bestseller.html">Bestseller</a>
+    <a href="todays_deal.html">Today's Deal</a>
+    <a href="mobile.html">Mobile</a>
+    <a href="laptops.html">Laptops</a>
+    <a href="electronics.html">Electronics</a>
+    <a href="fashion.html">Fashion</a>
+    <a href="home.html">Home & Kitchen</a>
+    <a href="books.html">Books</a>
+    <a href="toys.html">Toys</a>
+    <a href="amazon_pay.html">Amazon Pay</a>
+    <a href="car_bikes.html">Cars & Bikes</a>
+    <a href="customer_service.html">Customer Service</a>
+  </nav>
+
+ <main>
+  <div class="carousel-container">
+    <button class="carousel-btn prev" onclick="moveSlide(-1)">❮</button>
+
+    <div class="carousel-wrapper">
+      <div class="carousel-slides" id="carouselSlides">
+        <a href="fashion.html"><img src="assets/amazon-banner-1.jpg" alt="Banner 1" /></a>
+        <a href="mobile.html"><img src="assets/amazon-banner-2.jpg" alt="Banner 2" /></a>
+        <a href="bestseller.html"><img src="assets/amazon-banner-3.jpg" alt="Banner 3" /></a>
+        <a href="todays_deal.html"><img src="assets/amazon-banner-4.jpg" alt="Banner 4" /></a>
+      </div>
+    </div>
+
+    <button class="carousel-btn next" onclick="moveSlide(1)">❯</button>
+  </div>
+
+
+
+
+  <section class="feature-panels">
+    <div class="panel">
+      <h2>Appliances for your home | Up to 55% off</h2>
+      <div class="panel-items">
+        <div><img src="img/aircon.jpg" alt="AC"><p>Air conditioners</p></div>
+        <div><img src="img/fridge.jpg" alt="Fridge"><p>Refrigerators</p></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>Revamp your home in style</h2>
+      <div class="panel-items">
+        <div><img src="img/cushion.jpg" alt="Cushion"><p>Cushion covers</p></div>
+        <div><img src="img/decor.jpg" alt="Decor"><p>Decor pieces</p></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>PlayStation 5 Slim & Accessories</h2>
+      <div class="panel-items">
+        <div><img src="img/ps5digital.jpg" alt="PS5 Digital"><p>PS5 Digital</p></div>
+        <div><img src="img/ps5disc.jpg" alt="PS5 Disc"><p>PS5 Disc</p></div>
+      </div>
+    </div>
+
+    <div class="panel yellow">
+      <h2>Sign in for your best experience</h2>
+      <a href="login.html"><button>Sign in securely</button></a>
+    </div>
+  </section>
+</main>
+  
+</div>
+
+
+
+    <div class="products" id="product-list">
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Amazon. All rights reserved.</p>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+    <a href="terms.html">Terms & Conditions</a>
+    <a href="billing.html">Billing</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
