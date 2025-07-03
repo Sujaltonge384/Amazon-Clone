@@ -22,23 +22,41 @@ A fully responsive **Amazon Clone** built using **HTML, CSS, and JavaScript**, i
 ## 📁 Project Structure
 
 Amazon-Clone/
+
 ├── index.html
+
 ├── electronics.html
+
 ├── fashion.html
+
 ├── books.html
+
 ├── home.html
+
 ├── mobile.html
+
 ├── laptop.html
+
 ├── cart.html
+
 ├── login.html
+
 ├── register.html
+
 ├── css/
+
 │ └── style.css
+
 ├── js/
+
 │ └── script.js
+
 ├── images/
+
 │ └── [product images, banners, icons]
+
 ├── .nojekyll
+
 └── README.md
 
 
@@ -54,7 +72,7 @@ Amazon-Clone/
 
 ---
 
-##📌 TODOs / Improvements
+## 📌 TODOs / Improvements
  Add real-time login/register with backend (e.g., Firebase or Node.js)
 
  Integrate product filter and search functionality
@@ -65,16 +83,16 @@ Amazon-Clone/
 
  ---
 
-##📸 Screenshots
+## 📸 Screenshots
 
  ---
 
- ##📄 License
+## 📄 License
 This project is for educational and learning purposes only and is not affiliated with Amazon.
 
 ---
 
-##🙋‍♂️ Author
+## 🙋‍♂️ Author
 Sujal Tonge
 GitHub: @sujaltonge384
 Live site: sujaltonge384.github.io/Amazon-Clone
