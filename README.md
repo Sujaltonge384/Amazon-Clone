@@ -54,7 +54,7 @@ Amazon-Clone/
 
 ---
 
-📌 TODOs / Improvements
+##📌 TODOs / Improvements
  Add real-time login/register with backend (e.g., Firebase or Node.js)
 
  Integrate product filter and search functionality
@@ -65,16 +65,16 @@ Amazon-Clone/
 
  ---
 
- 📸 Screenshots
+##📸 Screenshots
 
  ---
 
- 📄 License
+ ##📄 License
 This project is for educational and learning purposes only and is not affiliated with Amazon.
 
 ---
 
-🙋‍♂️ Author
+##🙋‍♂️ Author
 Sujal Tonge
 GitHub: @sujaltonge384
 Live site: sujaltonge384.github.io/Amazon-Clone
