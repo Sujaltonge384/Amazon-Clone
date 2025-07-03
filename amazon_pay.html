@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amazon Pay | Amazon </title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+  <a href="index.html">
+    <img src="main-assets/logo.png" height="35px" width="100px" >
+  </a>
+</div>
+
+      <div class="search-bar">
+        <input type="text" placeholder="Search products" id="searchInput" />
+        <button onclick="searchProducts()">Search</button>
+      </div>
+      <div class="nav-links">
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+      </div>
+    </div>
+  </header>
+
+  <nav class="categories">
+    <a href="mx_payer.html">MX Player</a>
+    <a href="bestseller.html">Bestseller</a>
+    <a href="todays_deal.html">Today's Deal</a>
+    <a href="mobile.html">Mobile</a>
+    <a href="laptops.html">Laptops</a>
+    <a href="electronics.html">Electronics</a>
+    <a href="fashion.html">Fashion</a>
+    <a href="home.html">Home & Kitchen</a>
+    <a href="books.html">Books</a>
+    <a href="toys.html">Toys</a>
+    <a href="amazon_pay.html">Amazon Pay</a>
+    <a href="car_bikes.html">Cars & Bikes</a>
+    <a href="customer_service.html">Customer Service</a>
+  </nav>
+
+  <main class="apay-main">
+    <div class="apay-sidebar">
+      <h3>Amazon Pay Balance</h3>
+      <p class="balance">₹0.00</p>
+      <ul>
+        <li><a href="#">➕ Add Money</a></li>
+        <li><a href="#">🎁 Add Gift Card</a></li>
+        <li><a href="#">⚙️ Account Settings</a></li>
+      </ul>
+    </div>
+
+    <div class="apay-content">
+      <section class="apay-section">
+        <h2>Travel</h2>
+        <div class="icon-grid">
+          <div><img src="main-assets/Amazon pay/icons/Flight.png"><p>Flights</p></div>
+          <div><img src="main-assets/Amazon pay/icons/Bus Tickets.png"><p>Bus Tickets</p></div>
+          <div><img src="main-assets/Amazon pay/icons/Trains.png"><p>Trains</p></div>
+        </div>
+      </section>
+
+      <section class="apay-section">
+        <h2>Recharges</h2>
+        <div class="icon-grid">
+          <div><img src="main-assets/Amazon pay/icons/Mobile Recharge.png"><p>Mobile Recharge</p></div>
+          <div><img src="main-assets/Amazon pay/icons/Apple Store.png"><p>App Store Code</p></div>
+          <div><img src="main-assets/Amazon pay/icons/DTH Recharge.png"><p>DTH Recharge</p></div>
+          <div><img src="main-assets/Amazon pay/icons/Google Play Recharge.png"><p>Google Play Recharge</p></div>
+        </div>
+      </section>
+
+      <section class="apay-section">
+        <h2>Bill Payments</h2>
+        <div class="icon-grid">
+          <div><img src="main-assets/Amazon pay/icons/Electricity.png"><p>Electricity</p></div>
+          <div><img src="main-assets/Amazon pay/icons/Mobile Postpaid.png"><p>Mobile Postpaid</p></div>
+          <div><img src="main-assets/Amazon pay/icons/credit card bills.png"><p>Credit Card Bill</p></div>
+          <div><img src="main-assets/Amazon pay/icons/Loan Repayment.png"><p>Loan Repayment</p></div>
+          <div><img src="main-assets/Amazon pay/icons/Lpg.png"><p>LPG</p></div>
+          <div><img src="main-assets/Amazon pay/icons/Insurance Premium.png"><p>Insurance Premium</p></div>
+          <div><img src="main-assets/Amazon pay/icons/Piped Gas.png"><p>Piped Gas</p></div>
+        </div>
+      </section>
+
+      <section class="apay-section">
+        <h2>Daily Transit</h2>
+        <div class="icon-grid">
+          <div><img src="main-assets/Amazon pay/icons/Amazon Pay ICIC FASTag.png"><p>Amazon Pay ICICI FASTag</p></div>
+          <div><img src="main-assets/Amazon pay/icons/Metro Recharge.png"><p>Metro Recharge</p></div>
+        </div>
+      </section>
+
+      <section class="apay-section">
+        <h2>Insurance (amazonpayinsurance.in)</h2>
+        <div class="icon-grid">
+          <div><img src="main-assets/Amazon pay/icons/Car Insurance.png"><p>Car Insurance</p></div>
+          <div><img src="main-assets/Amazon pay/icons/Bike Insurance.png"><p>Bike Insurance</p></div>
+        </div>
+      </section>
+
+      <section class="apay-section">
+        <h2>Gift Cards and Vouchers</h2>
+        <div class="icon-grid">
+          <div><img src="main-assets/Amazon pay/icons/Add Gift Card.png"><p>Add Gift Card</p></div>
+          <div><img src="main-assets/Amazon pay/icons/Gift Cards.png"><p>Gift Cards</p></div>
+          <div><img src="main-assets/Amazon pay/icons/Amazon Vouchers.png"><p>Amazon Vouchers</p></div>
+          <div><img src="main-assets/Amazon pay/icons/Brand Vouchers.png"><p>Brand Vouchers</p></div>
+          <div><img src="main-assets/Amazon pay/icons/Birthday Giftcards.png"><p>Birthday Giftcards</p></div>
+          <div><img src="main-assets/Amazon pay/icons/Wedding Giftcards.png"><p>Wedding Giftcards</p></div>
+          <div><img src="main-assets/Amazon pay/icons/Corporate Gifting.png"><p>Corporate Gifting</p></div>
+        </div>
+      </section>
+
+      <section class="apay-card">
+       <img src="main-assets/Amazon pay/banner-1.jpg">
+      </section>
+
+      <section class="apay-card">
+       <img src="main-assets/Amazon pay/banner-2.jpg">
+      </section>
+
+      <section class="apay-card">
+       <img src="main-assets/Amazon pay/banner-3.jpg">
+      </section>
+
+      <section class="apay-card">
+       <img src="main-assets/Amazon pay/banner-4.jpg">
+      </section>
+
+      <section class="apay-card">
+       <img src="main-assets/Amazon pay/banner-5.jpg">
+      </section>
+    </div>
+  </main>
+</body>
+</html>
