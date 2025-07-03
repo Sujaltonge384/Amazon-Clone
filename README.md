@@ -63,6 +63,8 @@ Amazon-Clone/
 
  Improve accessibility and SEO
 
+ ---
+
  📸 Screenshots
  
 
