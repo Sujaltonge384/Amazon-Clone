@@ -94,6 +94,8 @@ This project is for educational and learning purposes only and is not affiliated
 
 ## 🙋‍♂️ Author
 Sujal Tonge
+
 GitHub: @sujaltonge384
+
 Live site: sujaltonge384.github.io/Amazon-Clone
 
